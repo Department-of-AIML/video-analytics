@@ -1,0 +1,1 @@
+cv2.putText(img,str(round(confidence*100,2)),(box[0]+200,box[1]+30),cv2.FONT_HERSHEY_COMPLEX,0.5,(0,255,0),2)
